@@ -1,0 +1,33 @@
+.button-nav {	
+background-color:#EDEDED;	
+color:#545454;	
+font-family:'Orbitron';
+font-size:18px;	
+line-height:30px;	
+border:0;		
+width:175px;	
+padding-top:10px;	
+
+padding-bottom:10px;    
+cursor:pointer;    
+margin-right:190px;    
+margin-top:40px;    
+margin-bottom:30px;    
+box-shadow: 0px 4px #A6A6A6;        
+transition: all 0.4s;} 
+.button-nav:hover {
+background-color:#cacaca;
+box-shadow: 0px 4px #8c8c8c;
+} 
+.button-nav:active {
+box-shadow: 0px 0px #8c8c8c;
+}
+.nav li {   
+ display:inline-block;
+ }
+ body {background-image:url("http://i.imgur.com/VWcYKrA.jpg");background-position:top}
+ .leftvid { margin-left:230px;}
+ .leftvid .rightvid {display:inline;}
+ .rightvid {position:relative;left:50px;}
+ .singlevid {position:relative; left:620px;}
+ #morevideosbtn {position:relative;left:860px;}
