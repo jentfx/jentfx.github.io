@@ -22,6 +22,10 @@ body {
   color:#de5750;
   
 }
+.active {
+ font-weight:700; 
+}
+}
 .jent {
  text-align: center;
   color:white;
