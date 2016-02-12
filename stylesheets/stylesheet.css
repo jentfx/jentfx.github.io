@@ -31,7 +31,7 @@ body {
   box-shadow:inset 0px -3px #de5750 , 0px 0px 11px 0px rgba(0,0,0,0.43);
   width:calc(100%/5 - 5px);
 }
-.home {
+.active {
  font-weight:700; 
 }
 .nav {
