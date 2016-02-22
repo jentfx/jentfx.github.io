@@ -1,0 +1,48 @@
+body {
+
+  background-image: url('https://cloud.githubusercontent.com/assets/16139384/12919302/2979d232-cf4c-11e5-97f3-31dd30ad1be6.png');
+  background-position:top;
+  background-size: 1000px 1000px;
+}
+.btn {
+  display:block;
+  text-align:center;
+  text-decoration:none;
+  color:white;
+  background-color:#de5750;
+  font-family:'Dosis';
+  width:100%;
+  font-size:25px;
+  margin-top: 5px;
+  box-shadow: 0px 2px #b1322c;
+}
+.btn:active {
+  background-color:white;
+  color:#de5750;
+
+}
+.active {
+  font-weight:700; 
+}
+.jent {
+  text-align: center;
+  color:white;
+  font-family:'Comfortaa';
+  font-size:20vw;
+  width:100%;
+  position:relative;
+  margin-top:-50px;
+}
+.about {
+ width:100%;
+  background-color: rgba(0, 0, 0, 0.37);
+    color:white;
+  border-radius:10px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3), 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+.text {
+  font-family:'Montserrat';
+  font-size:25px;
+ padding:2px;
+  
+}
