@@ -10,7 +10,7 @@ body {
   font-size:30px;
   background-color:#de5750;
   font-family:'Dosis';
-  width:calc(100%/5);
+  width:calc(100%/4);
   display:inline-block ; 
   text-align: center;
   float:left;
