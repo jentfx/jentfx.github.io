@@ -1,33 +1,85 @@
-.button-nav {	
-background-color:#EDEDED;	
-color:#545454;	
-font-family:'Orbitron';
-font-size:18px;	
-line-height:30px;	
-border:0;		
-width:175px;	
-padding-top:10px;	
-
-padding-bottom:10px;    
-cursor:pointer;    
-margin-right:190px;    
-margin-top:40px;    
-margin-bottom:30px;    
-box-shadow: 0px 4px #A6A6A6;        
-transition: all 0.4s;} 
-.button-nav:hover {
-background-color:#cacaca;
-box-shadow: 0px 4px #8c8c8c;
-} 
-.button-nav:active {
-box-shadow: 0px 0px #8c8c8c;
+body {
+  background-color: #5D5D5D;
+  background-image: url('https://cloud.githubusercontent.com/assets/16139384/12919302/2979d232-cf4c-11e5-97f3-31dd30ad1be6.png');
+  background-position:top;
+  background-size: 2300px 2300px;
+  overflow-y: hidden;
+  
 }
-.nav li {   
- display:inline-block;
- }
- body {background-image:url("http://i.imgur.com/VWcYKrA.jpg");background-position:top}
- .leftvid { margin-left:230px;}
- .leftvid .rightvid {display:inline;}
- .rightvid {position:relative;left:50px;}
- .singlevid {position:relative; left:570px;}
- #morevideosbtn {position:relative;left:800px;}
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.btn {
+  color:white;
+  text-decoration:none;
+  font-size:30px;
+  background-color:#de5750;
+  font-family:'Dosis';
+  width:calc(100%/4);
+  display:inline-block ; 
+  text-align: center;
+  float:left;
+  line-height: 60px;
+  vertical-align: middle;
+
+
+  border-radius:3px;
+  margin-left:-4px;
+  box-shadow:inset 0px -3px #de5750 ;
+  transition: all .4s ;
+}
+.btn:hover {
+  background-color:white;
+  color:#de5750;
+  box-shadow:inset 0px -3px #de5750 , 0px 0px 11px 0px rgba(0,0,0,0.43);
+  width:calc(100%/4 - 10px);
+}
+.active {
+  font-weight:700; 
+}
+.nav {
+  width:100%; 
+  position:absolute;
+  top:0;
+  z-index: 100;
+}
+.jent {
+  font-family:'Comfortaa';
+  color:white;
+  font-size:80px;
+  text-align:center;
+}
+
+.vid {
+ width: 720px;
+  height:480px;
+  position:relative;
+top:150px;
+  display: inline-block;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3), 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  
+}
+.vidleft {
+ margin-right: 50px; 
+}
+.more {
+ display: block;
+  
+  left:40%;
+  width:200px;
+  text-align: center;
+  line-height: 60px;
+  text-decoration: none;
+  color:white;
+  background-color:#DE5750;
+  font-family:'comfortaa';
+  font-size:20px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3), 0 2px 2px 0 rgba(0, 0, 0, 0.04);
+  transition: all .25s ease-in-out;
+}
+.more:hover {
+  background-color:white;
+  color:#DE5750;
+}
+
